@@ -6,58 +6,39 @@ package ee.ttu.weather.api.test;
 
 import static org.junit.Assert.*;
 
+import ee.ttu.weather.api.main.WeatherApi;
+import org.junit.Before;
 import org.junit.Test;
 
 public class WeatherApiTest {
+    WeatherApi weatherApi;
 
-
+    @Before
+    public void setUp() throws Exception {
+        weatherApi = new WeatherApi();
+    }
     @Test
-    public void getCurrentWeather(){
-        fail("Not yet implemented");
+    public void testGetCurrentTemperature(){
+        assertTrue(false);
     }
 
     @Test
-    public void getThreeDaysWeather(){
-        fail("Not yet implemented");
+    public void testGetThreeDaysWeather(){
+        assertTrue(false);
     }
 
-    @Test
-    public void getHigestTemperature(){
-        fail("Not yet implemented");
-    }
+
 
     @Test
-    public void getLowestTemperature(){
-        fail("Not yet implemented");
+    public void testGetCoordinatesInRightForm(){
+        assertTrue(false);
     }
 
-    @Test
-    public void getCoordinatesInRightForm(){
-        fail("Not yet implemented");
-    }
 
-    @Test
-    public void getCurrentTemperature(){
-        fail("Not yet implemented");
-    }
-
-    @Test
-    public void getWindSpeed(){
-        fail("Not yet implemented");
-    }
-
-    @Test
-    public void getHumidity(){
-        fail("Not yet implemented");
-    }
-
-    @Test
-    public void getCity() {
-        fail("Not yet implemented");
-    }
 
     @Test
     public void testConnectionExist() {
+
         fail("Not yet implemented");
     }
 }
