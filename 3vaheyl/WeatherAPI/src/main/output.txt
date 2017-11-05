@@ -1,0 +1,3 @@
+Weather report:City: Tallinn,EE; Date: Mon Nov 06 05:00:00 EET 2017; Current Temperature: 8.73; Latitude: 59.437; Longitude: 24.7535, min:6.27, max:8.73
+Weather report:City: Tallinn,EE; Date: Tue Nov 07 14:00:00 EET 2017; Current Temperature: 7.6; Latitude: 59.437; Longitude: 24.7535, min:3.03, max:7.6
+Weather report:City: Tallinn,EE; Date: Wed Nov 08 14:00:00 EET 2017; Current Temperature: 4.3; Latitude: 59.437; Longitude: 24.7535, min:1.77, max:4.3
