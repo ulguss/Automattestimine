@@ -18,6 +18,30 @@
     <SUITE FILE_PATH="coverage/WeatherAPI$WeatherApiTest.coverage" NAME="WeatherApiTest Coverage Results" MODIFIED="1509907329437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ee.ttu.weather.api.test.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/WeatherAPI$WeatherApiResponseTest_testGetThreeDaysForecast.coverage" NAME="WeatherApiResponseTest.testGetThreeDaysForecast Coverage Results" MODIFIED="1513543859256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ee.ttu.weather.api.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/WeatherAPI$WeatherApiResponseTest_testGetThreeDaysWeather.coverage" NAME="WeatherApiResponseTest.testGetThreeDaysWeather Coverage Results" MODIFIED="1513544080589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ee.ttu.weather.api.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/WeatherAPI$DataInputWriterReaderTest_TestFileWritingMocked.coverage" NAME="DataInputWriterReaderTest.TestFileWritingMocked Coverage Results" MODIFIED="1513541321288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ee.ttu.weather.api.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/WeatherAPI$WeatherApiResponseTest_testIfMaxTemperatureIsHigherThanMinTemperature.coverage" NAME="WeatherApiResponseTest.testIfMaxTemperatureIsHigherThanMinTemperature Coverage Results" MODIFIED="1513544513139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ee.ttu.weather.api.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/WeatherAPI$WeatherApiResponseTest_testIfFileCreatesForThreeDaysWeather.coverage" NAME="WeatherApiResponseTest.testIfFileCreatesForThreeDaysWeather Coverage Results" MODIFIED="1513544631015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ee.ttu.weather.api.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/WeatherAPI$WeatherApiResponseTest_testIfCoordinatesAreInRightFormatWithThreeDaysWeather.coverage" NAME="WeatherApiResponseTest.testIfCoordinatesAreInRightFormatWithThreeDaysWeather Coverage Results" MODIFIED="1513585732846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ee.ttu.weather.api.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/WeatherAPI$WeatherApiResponseTest_testCurrentWeatherIfFilesCreated.coverage" NAME="WeatherApiResponseTest.testCurrentWeatherIfFilesCreated Coverage Results" MODIFIED="1513587526826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ee.ttu.weather.api.test.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="2" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -40,31 +64,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WeatherApiRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRepository.java">
+      <file leaf-file-name="CurrentWeatherReport.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/CurrentWeatherReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+            <state relative-caret-position="153">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherApi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApi.java">
+      <file leaf-file-name="CurrentWeatherRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/CurrentWeatherRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+            <state relative-caret-position="51">
+              <caret line="9" column="58" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/Main.java">
+      <file leaf-file-name="UrlConnectionMaker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/UrlConnectionMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="95">
+              <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherApiResponseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiResponseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="148" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,11 +106,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherApiRequest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRequest.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="64" />
+            <state relative-caret-position="357">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectiveCallable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -376,11 +420,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiMain.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ee/ttu/weather/test/WeatherApiTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/Repository/WeatherApiReport.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/Reports/WeatherApiReport.java" />
         <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiReport.java" />
         <option value="$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/main/Reports/CurrentTemperatureReportTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/Reports/CurrentTemperatureReport.java" />
@@ -390,12 +429,48 @@
         <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/CurrentTemperatureReport.java" />
         <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/CurrentTemperature.java" />
         <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/Repository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRequest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApi.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/DataWriterRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/InputData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/ReadData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/DataInputReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/ForecastWeaterRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherUpdater.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/CurrentWeather/CurrentWeatherReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/CurrentWeather/CurrentWeatherRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ForecastWeather/ForecastWeatherReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/ObjectMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/UrlConnectionMaker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/CurrentWeatherReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/CurrentWeatherRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CurrentWeather/CurrentWeatherReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CurrentWeather/CurrentWeatherRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ForecastWeather/ForecastWeatherRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/ForecastWeather/ForecastWeatherRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/main/AskWriteToFile/DataInputAsker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/main/AskWriteToFile/DataInputWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/main/CurrentWeather/CurrentWeatherRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/main/ForecastWeather/ForecastWeatherRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/main/ForecastWeather/ForecastWeatherReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/main/CurrentWeatherRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/main/ForecastWeatherRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/main/ForecastWeatherReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/main/DataInputWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/main/WeatherUpdater.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/DataInputWriterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/DataInputAskerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/ForecastWeatherRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/ForecastWeatherReport.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/DataInputWriterReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/DataInputAsker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/DataInputWriter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiResponseTest.java" />
       </list>
     </option>
   </component>
@@ -411,6 +486,85 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CollectionsScala</id>
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Class metricsJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Method MetricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>Scala</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Simplifications: other CollectionsScala</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -437,7 +591,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -497,37 +650,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeatherAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeatherAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -586,36 +709,19 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeatherAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeatherAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Console" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -628,19 +734,24 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ee.ttu.weather.api.main.Reports" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\WeatherAPI\src\main" />
+      <recent name="C:\Users\User\IdeaProjects\WeatherAPI\.idea\libraries" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ee.ttu.weather.main" />
+      <recent name="ee.ttu.weather" />
       <recent name="ee.ttu.weather.api.main" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\IdeaProjects\WeatherAPI\src\main" />
-      <recent name="C:\Users\User\IdeaProjects\WeatherAPI\.idea\libraries" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ee.ttu.weather.api.main" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="WeatherApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="WeatherApiResponseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="ee.ttu.weather.api.test.*" />
@@ -651,7 +762,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ee.ttu.weather.api.test" />
-      <option name="MAIN_CLASS_NAME" value="ee.ttu.weather.api.test.WeatherApiTest" />
+      <option name="MAIN_CLASS_NAME" value="ee.ttu.weather.api.test.WeatherApiResponseTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -684,6 +795,84 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="WeatherAPI" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DataInputWriterReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ee.ttu.weather.api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="WeatherAPI" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ee.ttu.weather.api.test" />
+      <option name="MAIN_CLASS_NAME" value="ee.ttu.weather.api.test.DataInputWriterReaderTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="WeatherApiResponseTest.testIfCoordinatesAreInRightFormatWithThreeDaysWeather" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ee.ttu.weather.api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="WeatherAPI" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ee.ttu.weather.api.test" />
+      <option name="MAIN_CLASS_NAME" value="ee.ttu.weather.api.test.WeatherApiResponseTest" />
+      <option name="METHOD_NAME" value="testIfCoordinatesAreInRightFormatWithThreeDaysWeather" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="WeatherApiResponseTest.testCurrentWeatherIfFilesCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ee.ttu.weather.api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="WeatherAPI" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ee.ttu.weather.api.test" />
+      <option name="MAIN_CLASS_NAME" value="ee.ttu.weather.api.test.WeatherApiResponseTest" />
+      <option name="METHOD_NAME" value="testCurrentWeatherIfFilesCreated" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1109,14 +1298,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.WeatherApiTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.WeatherApiResponseTest" />
       <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DataInputWriterReaderTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.WeatherApiResponseTest.testIfCoordinatesAreInRightFormatWithThreeDaysWeather" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.WeatherApiResponseTest.testCurrentWeatherIfFilesCreated" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WeatherApiTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.WeatherApiResponseTest.testCurrentWeatherIfFilesCreated" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.WeatherApiResponseTest.testIfCoordinatesAreInRightFormatWithThreeDaysWeather" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.WeatherApiResponseTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DataInputWriterReaderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1140,35 +1335,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WeatherApiTest - 2017.11.05 at 20h 10m 26s.xml">
-      <configuration name="WeatherApiTest" configurationId="JUnit" />
+    <history-entry file="WeatherApiResponseTest_testCurrentWeatherIfFilesCreated - 2017.12.18 at 10h 29m 52s.xml">
+      <configuration name="WeatherApiResponseTest.testCurrentWeatherIfFilesCreated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherApiTest - 2017.11.05 at 20h 13m 53s.xml">
-      <configuration name="WeatherApiTest" configurationId="JUnit" />
+    <history-entry file="WeatherApiResponseTest_testCurrentWeatherIfFilesCreated - 2017.12.18 at 10h 32m 57s.xml">
+      <configuration name="WeatherApiResponseTest.testCurrentWeatherIfFilesCreated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherApiTest - 2017.11.05 at 20h 16m 55s.xml">
-      <configuration name="WeatherApiTest" configurationId="JUnit" />
+    <history-entry file="WeatherApiResponseTest_testCurrentWeatherIfFilesCreated - 2017.12.18 at 10h 33m 49s.xml">
+      <configuration name="WeatherApiResponseTest.testCurrentWeatherIfFilesCreated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherApiTest - 2017.11.05 at 20h 28m 26s.xml">
-      <configuration name="WeatherApiTest" configurationId="JUnit" />
+    <history-entry file="WeatherApiResponseTest_testCurrentWeatherIfFilesCreated - 2017.12.18 at 10h 37m 09s.xml">
+      <configuration name="WeatherApiResponseTest.testCurrentWeatherIfFilesCreated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherApiTest - 2017.11.05 at 20h 30m 39s.xml">
-      <configuration name="WeatherApiTest" configurationId="JUnit" />
+    <history-entry file="WeatherApiResponseTest_testCurrentWeatherIfFilesCreated - 2017.12.18 at 10h 39m 39s.xml">
+      <configuration name="WeatherApiResponseTest.testCurrentWeatherIfFilesCreated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherApiTest - 2017.11.05 at 20h 34m 43s.xml">
-      <configuration name="WeatherApiTest" configurationId="JUnit" />
+    <history-entry file="WeatherApiResponseTest_testCurrentWeatherIfFilesCreated - 2017.12.18 at 10h 40m 26s.xml">
+      <configuration name="WeatherApiResponseTest.testCurrentWeatherIfFilesCreated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherApiTest - 2017.11.05 at 20h 37m 08s.xml">
-      <configuration name="WeatherApiTest" configurationId="JUnit" />
+    <history-entry file="WeatherApiResponseTest_testCurrentWeatherIfFilesCreated - 2017.12.18 at 10h 58m 51s.xml">
+      <configuration name="WeatherApiResponseTest.testCurrentWeatherIfFilesCreated" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherApiTest - 2017.11.05 at 20h 41m 40s.xml">
-      <configuration name="WeatherApiTest" configurationId="JUnit" />
+    <history-entry file="WeatherApiResponseTest_testIfCoordinatesAreInRightFormatWithThreeDaysWeather - 2017.12.18 at 10h 27m 21s.xml">
+      <configuration name="WeatherApiResponseTest.testIfCoordinatesAreInRightFormatWithThreeDaysWeather" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherApiTest - 2017.11.05 at 20h 42m 12s.xml">
-      <configuration name="WeatherApiTest" configurationId="JUnit" />
+    <history-entry file="WeatherApiResponseTest_testIfCoordinatesAreInRightFormatWithThreeDaysWeather - 2017.12.18 at 10h 28m 35s.xml">
+      <configuration name="WeatherApiResponseTest.testIfCoordinatesAreInRightFormatWithThreeDaysWeather" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherApiTest - 2017.11.05 at 20h 44m 52s.xml">
-      <configuration name="WeatherApiTest" configurationId="JUnit" />
+    <history-entry file="WeatherApiResponseTest_testIfCoordinatesAreInRightFormatWithThreeDaysWeather - 2017.12.18 at 10h 28m 55s.xml">
+      <configuration name="WeatherApiResponseTest.testIfCoordinatesAreInRightFormatWithThreeDaysWeather" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="2">
@@ -1182,35 +1377,35 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20621932" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.21558245" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37806875" sideWeight="0.49092284" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3797054" sideWeight="0.3804841" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3420622" sideWeight="0.6195159" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3535188" sideWeight="0.48487142" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49394855" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.034700315" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23373677" sideWeight="0.7089552" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.78441757" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.76626325" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23373677" sideWeight="0.29104477" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.034369886" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1226,169 +1421,61 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiResponseTest.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiResponseTest.java</url>
+          <line>125</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="7" />
+      <option name="time" value="31" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="url" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="88" column="108" selection-start-line="88" selection-start-column="108" selection-end-line="88" selection-end-column="114" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiResponseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#797#798#0" expanded="false" />
+            <element signature="e#856#857#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherUpdater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/org_json_json_20170516.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,7 +1483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,25 +1490,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiResponseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#797#798#0" expanded="false" />
+            <element signature="e#856#857#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1431,25 +1516,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiResponseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#797#798#0" expanded="false" />
+            <element signature="e#856#857#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1458,70 +1542,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiResponseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#797#798#0" expanded="false" />
+            <element signature="e#856#857#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiResponseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#797#798#0" expanded="false" />
+            <element signature="e#856#857#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiResponseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#797#798#0" expanded="false" />
+            <element signature="e#856#857#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiResponseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#797#798#0" expanded="false" />
+            <element signature="e#856#857#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1538,7 +1622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1553,51 +1636,148 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/ForecastWeatherReport.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/ObjectMapper.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/main/ForecastWeather/ForecastWeatherReport.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApi.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/DataInputAskerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/ForecastWeatherReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/ForecastWeatherRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="357">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherUpdater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/DataInputAsker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        <state relative-caret-position="98">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/DataInputWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="64" />
+        <state relative-caret-position="50">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar!/org/mockito/Mockito.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-731">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/DataInputWriterReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="57" column="93" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/CurrentWeatherReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/CurrentWeatherRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/UrlConnectionMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/WeatherApiResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="50" />
+          <folding>
+            <element signature="e#1743#1744#0" expanded="true" />
+            <element signature="e#1789#1790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ee/ttu/weather/api/test/WeatherApiResponseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="148" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ee/ttu/weather/api/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1666,7 +1846,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: junit:junit:4.11</last-edited>
+          <last-edited>org.mockito:mockito-core:2.13.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

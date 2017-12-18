@@ -1,14 +1,14 @@
-Sun Dec 17 23:35:13 EET 2017 
+Mon Dec 18 11:15:27 EET 2017 
 City: Tallinn, Country code: EE; Latitude: 59.44; Longitude: 24.75
 ; Current Temperature: 0.0
 , Minimum temperature: 0.0
 , Maximum temperature: 0.0 
-Mon Dec 18 05:00:00 EET 2017 
-Minimum temperature: -1.12 
-Maximum temperature: 0.61 
-Tue Dec 19 08:00:00 EET 2017 
-Minimum temperature: -0.07 
-Maximum temperature: 1.77 
-Wed Dec 20 05:00:00 EET 2017 
-Minimum temperature: -3.06 
-Maximum temperature: -0.35 
+Tue Dec 19 05:00:00 EET 2017 
+Minimum temperature: -2.24 
+Maximum temperature: 2.75 
+Wed Dec 20 23:00:00 EET 2017 
+Minimum temperature: -1.91 
+Maximum temperature: 3.1 
+Thu Dec 21 05:00:00 EET 2017 
+Minimum temperature: 1.41 
+Maximum temperature: 3.55 
