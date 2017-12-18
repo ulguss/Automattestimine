@@ -55,7 +55,7 @@ public class DataInputWriterReaderTest {
         String fileName = "test.txt";
         writer.writeDataToFile(fileName, "working");
 
-        String inputFile = System.getProperty("user.dir") + "\\src\\test\\resources" + "\\" + fileName;
+        String inputFile = "C:\\Users\\User\\IdeaProjects\\WeatherAPI\\src\\test\\resources" +  "\\" + fileName;
         BufferedReader fileIn = new BufferedReader(new FileReader(inputFile));
         assertNotNull(fileIn.readLine());
     }

@@ -11,7 +11,9 @@ import java.util.*;
  * Created by User on 16.12.2017.
  */
 public class ForecastWeatherRepository {
+
     public List<WeatherApiResponse> ThreeDaysWeather(WeatherApiRequest request) throws IOException {
+
         List<WeatherApiResponse> ThreeDaysWeather = new ArrayList<>();
         List<List<WeatherApiResponse>> sortByDate = new ArrayList<>();
         List<WeatherApiResponse> reportThreeDaysWeather = new ArrayList<>();

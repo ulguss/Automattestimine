@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
  */
 public class DataInputWriter {
 
-    private String outputTxt = System.getProperty("user.dir") + "\\src\\main\\";
+    private String outputTxt = "C:\\Users\\User\\IdeaProjects\\WeatherAPI\\src\\main\\";
 
 
 

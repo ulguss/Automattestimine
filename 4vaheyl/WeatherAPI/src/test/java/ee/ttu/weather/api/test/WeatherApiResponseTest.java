@@ -4,20 +4,20 @@ package ee.ttu.weather.api.test;
  * Created by User on 22.09.2017.
  */
 
-import ee.ttu.weather.api.main.CurrentWeatherRepository;
-import ee.ttu.weather.api.main.ForecastWeatherRepository;
-import ee.ttu.weather.api.main.WeatherApiRequest;
-import ee.ttu.weather.api.main.WeatherApiResponse;
+import ee.ttu.weather.api.main.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.io.File;
 import java.io.IOException;
+import java.util.Date;
 import java.util.List;
 
 import static junit.framework.TestCase.fail;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.*;
 
 public class WeatherApiResponseTest {
     private ForecastWeatherRepository forecastRepo;
@@ -107,21 +107,54 @@ public class WeatherApiResponseTest {
         }
         }
 
+//    @Test
+//    public void testIfCoordinatesAreInRightFormatWithThreeDaysWeather() throws IOException {
+//        List<WeatherApiResponse> response = forecastRepo.ThreeDaysWeather(request);
+//        try {
+//        for (WeatherApiResponse day : response) {
+//            assertTrue(day.getCoordinatesLat().toString().matches("\\d{2}.\\d{2}"));
+//            assertTrue(day.getCoordinatesLon().toString().matches("\\d{2}.\\d{2}"));
+//        }
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//            fail("No data.");
+//        }
+//    }
+
     @Test
-    public void testIfCoordinatesAreInRightFormatWithThreeDaysWeather() throws IOException {
-        List<WeatherApiResponse> response = forecastRepo.ThreeDaysWeather(request);
-        try {
-        for (WeatherApiResponse day : response) {
-            assertTrue(day.getCoordinatesLat().toString().matches("\\d{2}.\\d{4}"));
-            assertTrue(day.getCoordinatesLon().toString().matches("\\d{2}.\\d{4}"));
-        }
-        } catch (Exception e) {
-            e.printStackTrace();
-            fail("No data.");
-        }
+    public void testCurrentWeatherIfFilesCreated() throws IOException {
+        CurrentWeatherRepository currentWeather = new CurrentWeatherRepository();
+        DataInputWriter writer = new DataInputWriter();
+        UrlConnectionMaker url = mock(UrlConnectionMaker.class);
+
+        WeatherApiRequest request = new WeatherApiRequest("Tallinn", "EE");
+        WeatherApiResponse response = new WeatherApiResponse();
+        response.setCityName("Tallinn");
+        response.setCountryCode("EE");
+        response.setCoordinatesLon(00.00);
+        response.setCoordinatesLat(00.00);
+        response.setDate(new Date());
+
+        when(currentWeather.getCurrentTemperature(request)).thenReturn(response);
+
+        response = currentWeather.getCurrentTemperature(request);
+
+        verify(url,times(1)).getResponseFromWheatherApiByUrl(request, String.valueOf(response));
+//        verify(url,times(1)).currentWeather.getCurrentTemperature(request);
+
+//        when(currentWeather.getCurrentTemperature(request)).thenReturn(response);
+//
+//        response = currentWeather.getCurrentTemperature(request);
+//        verify(currentWeather, times(1)).getCurrentTemperature(request);
+//
+//
+        writer.writeDataToFile(request.getCityName().toLowerCase() + ".txt", response.toString());
+       File file = new File("C:\\Users\\User\\IdeaProjects\\WeatherAPI\\src\\test\\resources" + "\\" + request.getCityName().toLowerCase() + ".txt");
+
+
+
+//        assertTrue(file.exists());
     }
-
-
 
 
 

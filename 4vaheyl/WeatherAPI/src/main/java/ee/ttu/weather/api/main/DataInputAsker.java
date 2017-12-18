@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class DataInputAsker {
 
-    private static String inputFile = System.getProperty("user.dir") + "\\src\\main\\input.txt";
+    private static String inputFile = "C:\\Users\\User\\IdeaProjects\\WeatherAPI\\src\\main\\input.txt";
 
 
     public static List<String> getCityFromConsole() {
