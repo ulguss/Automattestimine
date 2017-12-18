@@ -1,0 +1,14 @@
+Sun Dec 17 23:35:13 EET 2017 
+City: Berlin, Country code: DE; Latitude: 52.52; Longitude: 13.39
+; Current Temperature: 1.0
+, Minimum temperature: 1.0
+, Maximum temperature: 1.0 
+Mon Dec 18 14:00:00 EET 2017 
+Minimum temperature: -4.23 
+Maximum temperature: 1.21 
+Tue Dec 19 14:00:00 EET 2017 
+Minimum temperature: -5.82 
+Maximum temperature: -0.84 
+Wed Dec 20 23:00:00 EET 2017 
+Minimum temperature: -5.57 
+Maximum temperature: 2.08 

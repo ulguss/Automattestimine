@@ -1,0 +1,14 @@
+Sun Dec 17 23:35:13 EET 2017 
+City: Brussels, Country code: BE; Latitude: 50.85; Longitude: 4.35
+; Current Temperature: 2.57
+, Minimum temperature: 2.0
+, Maximum temperature: 3.0 
+Mon Dec 18 14:00:00 EET 2017 
+Minimum temperature: 2.9 
+Maximum temperature: 7.51 
+Tue Dec 19 14:00:00 EET 2017 
+Minimum temperature: 3.68 
+Maximum temperature: 5.92 
+Wed Dec 20 23:00:00 EET 2017 
+Minimum temperature: 5.0 
+Maximum temperature: 7.73 
